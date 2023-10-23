@@ -50,8 +50,8 @@ public class buyProductStep {
 
     @And("User fill the biodata and click Continue button")
     public void user_fill_the_biodata_and_click_continue_button() {
-        driver.findElement(By.id("first-name")).sendKeys("Yuka");
-        driver.findElement(By.id("last-name")).sendKeys("db");
+        driver.findElement(By.id("first-name")).sendKeys("Dnors");
+        driver.findElement(By.id("last-name")).sendKeys("N");
         driver.findElement(By.id("postal-code")).sendKeys("12345");
         driver.findElement(By.id("continue")).click();
     }
